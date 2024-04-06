@@ -197,7 +197,7 @@ class APIEcoleDirecte extends API {
       "user-agent":
           "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36 RuxitSynthetic/1.0 v6886653584872488035 t8141814394349842256 ath1fb31b7a altpriv cvcv=2 cexpw=1 smf=0"
     };
-    String data = 'data={"uuid":"", "identifiant": "$username", "motdepasse": "$password", "isReLogin": false}';
+    String data = 'data={"uuid":"", "identifiant": "$username", "motdepasse": "$password", "isReLogin": false, "fa": [{"cn": "ED_UExVTUVfMDQ5MjE0MEtfRV81NDcz", "cv": "NzczMDZkNzQ1ODY0NTA0NjY1MzYzMDU3NTc3NTUxNTIzMzM0Nzc0ODYyNjI0MzZmNzA3OTdhNjE=",}],}';
 
     //encode Map to JSON
     var body = data;
